@@ -1,13 +1,20 @@
 body{
     background-color: aliceblue;
 }
+.container{
+    width: 80%;
+    height: 100vh;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid green;
+    border-radius: 20%;
+
+}
 table{
     margin: 20px auto;
     text-align: center;
 }
-div{
-    display: inline-block;
-}
+
 p{
     display: inline-block;
 }
@@ -17,12 +24,20 @@ img{
     align-items: center;
     /* align-content: center; */
 }
-button ,select{
+input{
+    width: 50%;
+    height: 30px;
+}
+input[type="button"]{
+    background-color:lightgreen;
+    border: 1px solid green;
+}
+select{
     width:100px;
     padding: 10px;
     border: 1px solid aliceblue;
     border-radius: 40%;
 }
-button:hover{
-    background-color: lightgray;
+input[type="button"]:hover{
+    background-color: darkgreen;
 }
